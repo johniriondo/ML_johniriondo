@@ -1,0 +1,186 @@
+@import url('footer.css');
+@import url('header.css');
+
+main{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 175px;
+    width: 100%;
+    background-color: #ebebeb;
+    
+   
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-banner {
+    margin-top: 0px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+    
+   
+
+}
+
+.contenedor h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 20px;
+    
+}
+
+.subcontenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.product{
+   padding:  15px;
+   flex: 100%;
+   max-width: 100%;
+
+   
+}
+
+.articulo{
+    width: 100%;
+    
+}
+
+.caja-producto{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    background-color:white;
+    position: relative;
+    
+}
+
+.truck{
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%; 
+    position: absolute;
+    right:20px;
+    top: -15px;
+
+}
+
+.detalle{
+    display: flex;
+}
+
+.precios{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    flex-grow: 0.7;
+    text-align: left;
+}
+
+.descripciones{
+    font-size: 16px;
+    display: none;
+}
+
+/*
+.product:hover h3{
+    opacity: 1;
+    background-color: rgba(0,0,0,1);
+
+}
+*/
+/*
+.product h3{
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+    margin:0;
+    padding 15px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 450ms;
+
+}
+*/
+
+
+
+@media(min-width: 768px){
+
+    main{
+        
+        margin-top: 100px;
+      
+       
+    }
+    
+    .product{
+        box-shadow: 0px 0px 10px rgb(100, 100,100);
+        flex: 45%;
+        max-width: 45%;
+
+    }
+    
+    
+    .descripciones{
+        
+        display: block;
+    }
+/*
+    .articulo{
+        width: 15vw;
+    }
+*/
+
+}
+
+
+@media (min-width: 1280px){
+/*
+    .articulo{
+        width: 15vw;
+    }
+*/
+
+.product{
+    flex: 20%;
+    max-width: 20%;
+    
+}
+
+main{
+        
+    margin-top: 140px;
+  
+   
+}
+
+}

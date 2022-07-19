@@ -1,0 +1,93 @@
+@import url('footer.css');
+@import url('header.css');
+
+main{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 175px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.create-form{
+    padding: 20px 15px;
+
+}
+
+.intereses{
+    list-style: none;
+    padding: 10px;
+}
+
+.perfil{
+    padding: 10px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display:block;
+
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.fecha{
+    padding: 8px;
+    font-size:20px;
+}
+
+.btn{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+
+@media(min-width: 768px){
+   
+    main{
+        
+        margin-top: 110px;
+    }
+
+    .control{
+        width: 50%;
+       
+    }
+
+
+}
+
+@media (min-width: 1280px){
+
+    .control{
+        width: 30%;
+       
+    }
+
+
+    main{
+        
+        margin-top: 170px;
+    }
+
+}
